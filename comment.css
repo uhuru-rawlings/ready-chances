@@ -1,9 +1,14 @@
+* {
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
+
 body {
     background-image: url(./images/background.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: repeat;
-    margin: 5px;
 }
 
 ul li {
@@ -44,9 +49,32 @@ form,
 
 .btn {
     padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 footer {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    background-color: #24292F;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin: 50px -8px -8px -8px;
+    padding: 10px 50px 10px 50px;
+}
+
+.contact p {
+    font-size: 15px;
+}
+
+footer p,
+a {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#usernam {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
 }
