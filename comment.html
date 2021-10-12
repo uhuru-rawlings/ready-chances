@@ -27,20 +27,20 @@
             </li>
         </ul>
     </nav>
-    <div id="content">
-        <form action="">
-            <div class="user">
-                <input type="" id="usernam" placeholder="   Enter username">
+    <div class="form">
+        <form action="#" method="POST">
+            <label for=""> username
+                <br>
+        <input type="text" id="username" placeholder="   Enter username" required>
+        </label>
+            <br>
+            <label for="">Comment
+         <br>
+         <textarea name="usercomment" id="usercomment" cols="30" rows="10" placeholder="Type text" required></textarea>
+        </label>
+            <br>
+            <input type="submit" value="Send" name="send">
         </form>
-        </div>
-        <div class="comment">
-            <form action="">
-                <input type="" id="comment" placeholder="  type your comment">
-            </form>
-        </div>
-        <div class="btn">
-            <button id="btncomment" type="button">Send Comment</button>
-        </div>
     </div>
 
     <!-- footer -->

@@ -73,8 +73,61 @@ a {
     text-decoration: none;
 }
 
-#usernam {
+#coment {
+    border-radius: 10px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    padding-top: 30px;
+    text-align: left;
+    background-color: inherit;
+    border: 2px #FFFFFF;
+    color: #FFFFFF;
+}
+
+textarea {
     border-radius: 10px;
     padding: 10px;
-    text-align: left;
+    width: 450px;
+    height: 80px;
+    max-width: 450px;
+    max-height: 80px;
+    min-width: 450px;
+    min-height: 80px;
+    padding-left: 30px;
+    background-color: inherit;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+input[type=submit] {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F61A9E;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+input[type=text] {
+    border: 2px solid white;
+    color: #FFFFFF;
+    border-radius: 30px;
+    outline: none;
+    height: 50px;
+    width: 450px;
+    background-color: inherit;
+    padding-left: 30px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
 }
