@@ -45,3 +45,8 @@ form,
 .btn {
     padding-top: 70px;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
