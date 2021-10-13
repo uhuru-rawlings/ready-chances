@@ -47,11 +47,6 @@ form,
     padding-top: 50px;
 }
 
-.btn {
-    padding-top: 70px;
-    padding-bottom: 50px;
-}
-
 footer {
     display: flex;
     justify-content: space-between;
