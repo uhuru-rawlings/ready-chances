@@ -59,8 +59,8 @@ textarea{
     background-color: inherit;
     padding-left: 30px;
     outline: none;
-    font-size: 20px;
     color: #FFFFFF;
+    font-size: 17px;
 }
 input[type=submit]{
     width: 430px;
@@ -79,7 +79,7 @@ input[type=submit]{
 .form{
 display: block;
 text-align: center;
-padding-top: 200px;
+padding-top: 50px;
 margin-bottom: 80px;
 }
 .userinput{
@@ -98,17 +98,15 @@ footer{
     justify-content: space-between;
     background-color: #24292F;
     color: #FFFFFF;
-    margin-left:-8px;
-    margin-right: -8px;
+    margin-top: 50px;
+    margin: 50px -8px -8px -8px;
     padding: 10px 50px 10px 50px;
-    width: 100%;
 }
-    
 .contact p{
     font-size: 15px;
 }
 footer p, a{
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
 }
