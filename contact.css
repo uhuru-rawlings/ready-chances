@@ -93,3 +93,22 @@ input{
     font-size: 20px;
     color: #FFFFFF;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292F;
+    color: #FFFFFF;
+    margin-left:-8px;
+    margin-right: -8px;
+    padding: 10px 50px 10px 50px;
+    width: 100%;
+}
+    
+.contact p{
+    font-size: 15px;
+}
+footer p, a{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
