@@ -9,3 +9,23 @@ body{
     background-repeat: no-repeat;
 
 }
+/* nav */
+nav{
+    background-color: rgba(36,41,47,0.9);
+    margin: -8px -8px 0px -8px;
+    text-align: right;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}
+ul li a{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
