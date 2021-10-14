@@ -1,0 +1,11 @@
+*{
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
+body{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
