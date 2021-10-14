@@ -1,0 +1,281 @@
+*{
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#icon{
+    border-radius: 50%;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+    display: inline;
+    padding-right: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+}
+nav ul li a:hover{
+    color: rgb(228, 224, 224);
+}
+.logo img{
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292F;
+    padding: 5px;
+    margin: -8px -8px 0px -8px;
+    position: sticky;
+    top:0;
+}
+.body p{
+    font-size: 23px;
+    font-weight: normal;
+}
+.coll{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 100px 0px 200px;
+}
+.rows{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #24292F;
+    align-items: center;
+    padding: 10px;
+}
+.notices{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* margin-left: 40px; */
+    /* margin-right: 50px; */
+}
+.notice, #chartContainer{
+    width: 380px;
+    height: 240px;
+    border: 2px solid #24292F;
+    color: white;
+    border-radius: 10px;
+    margin:0px 100px 0px 200px;
+}
+.notice .text, .date .text{
+    background-color: #24292F;
+    color: white;
+    border-radius: 7px 7px 0px 0px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+.rows a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292F;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin: 50px -8px -8px -8px;
+    padding: 10px 50px 10px 50px;
+}
+section{
+    display: inline-flex;
+    width: 30px;
+    height: 20px;
+}
+.contact p{
+    font-size: 15px;
+}
+footer p, a{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+}
+.notice p{
+       color: #24292F;
+    background-color: rgb(184, 243, 207);
+    padding: 3px;
+}
+#callender p{
+    display: flex;
+    justify-content: space-between;
+
+}
+#callender{
+    color: #24292F;
+    font-size: 12px;
+    /* display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px; */
+    padding:0px 20px 5px 20px;
+}
+#callender button{
+    border: none;
+    color: #24292F;
+    background-color: inherit;
+    width: 30px;
+    height: 20px;
+}
+.weeks{
+    justify-content: space-between;
+    display: flex;
+}
+section button{
+    padding-right: 43px;
+}
+.active{
+    color: #E35998;
+}
+.addsuer-btn{
+   text-align: right;
+   margin-right: 150px;
+   margin-top: 40px;
+}
+.addsuer-btn button{
+    width: 100px;
+    height: 40px;
+    background-color: #24292F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* table */
+table{
+    width: 80%;
+    margin: 20px 100px 20px 100px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th{
+    padding: 5px;
+    background-color: rgb(235, 230, 230);
+}
+tr,th,td{
+    border: 1px solid gray;
+    text-align: center;
+    align-items: center;
+}
+/* inputs */
+.coll input[type=text]{
+    width: 350px;
+    height: 40px;
+    border: 1px solid #24292F;
+    outline: none;
+    border-radius: 3px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.coll input[type=url]{
+    width: 350px;
+    height: 40px;
+    border: 1px solid #24292F;
+    outline: none;
+    border-radius: 3px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.coll fieldset{
+    border-radius: 20px;
+}
+.coll .jobs{
+    margin-top: 40px;
+}
+.coll .sponsorships input[type=submit],.coll .jobs input[type=submit]{
+    width: 350px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    background-color: #24292F;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+.coll .sponsorships{
+    margin-top: 40px;
+}
+textarea{
+    width: 350px;
+    height: 80px;
+    max-width: 350px;
+    max-height: 80px;
+    min-width: 350px;
+    min-height: 80px;
+    border: 1px solid #24292F;
+    outline: none;
+    border-radius: 3px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+/* messages */
+.messages{
+    /* width: 70%; */
+    background-color: #24292F;
+    color: #24292F;
+    border-radius: 20px;
+    text-align: center;
+    margin: 40px 100px 50px 100px;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+}
+.messages .coll{
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.messages .success{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 450px){
+    nav{
+        width: 100%;
+    }
+    .menu ul li{
+        display: block;
+    }
+    .menu ul li img{
+        display: none;
+    }
+    .coll{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    footer{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .notices{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .notice{
+        width: 450px;
+        padding: 0;
+    }
+    .notice, #chartContainer{
+        margin: 0;
+        width: 450px;
+    }
+    table{
+        margin: 0;
+        padding: 0;
+    }
+    .messages{
+        margin: 0;
+        padding: 0;
+    }
+}
