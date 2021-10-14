@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img width="100%" height="400px" id="slideshow" alt="">
+    <script>
+        let images = [];
+        let time = 3000;
+        images[0] = "image.png";
+        images[1] = "image.png";
+        images[2] = "image.png";
+        images[3] = "image.png";
+        images[4] = "image.png";
+        images[5] = "image.png";
+        for(let i = 0; i<=images.length; i++){
+            document.getElementById("slideshow").src=images[i];
+        }
+    </script>
+</body>
+</html>
