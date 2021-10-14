@@ -1,0 +1,98 @@
+*{
+    font-family: "lato extended", lato, "helvetica neue", helvetica, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
+nav{
+    background-color: #24292f;
+    margin:-8px -8px 0px -8px;
+    padding:10px;
+    text-align: right;
+}
+ul li{
+    padding-left: 30px;
+    display: inline;
+    border:none;
+    list-style: none;
+} 
+ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400px;
+
+}
+.ABOUT{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutcontent{
+    width: 300px;
+    padding-left: 40%;
+
+}
+.jobs{
+    align-content: center;
+}
+.jobscontent{
+    align-content: flex-start;
+    width: 200px;
+}
+.sponsorships{
+    align-content: center;
+}
+.sponsorshipscontent{
+    align-content: center;
+    width: 200px;
+}
+.others{
+    align-content: flex-end;
+}
+.otherscontent{
+    align-content: flex-end;
+    width: 200px;
+}
+.white{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin: 50px -8px -8px -8px;
+    padding: 10px 50px 10px 50px;
+}
+contact p{
+    font-size: 15px;
+}
+footer p,a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+}
+@media screen and (min-width:480px) {
+    #leftsidebar{
+        width: 200px;
+        float:left;
+    }
+}
